@@ -52,3 +52,5 @@ Password strength: Strong (Score: 4/5)
 - **Ease of Use**: Simple command-line interface with clear feedback.
 
 This script is ideal for anyone looking to improve their password security by understanding and addressing the factors that contribute to password strength.
+
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/89c6ee3b-aa16-4144-bd34-3eb4e1cbe84d">
