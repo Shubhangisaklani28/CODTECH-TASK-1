@@ -1,4 +1,5 @@
-Name: Shubhangi Saklani
+Name: Shubhangi Saklani   
+
 Company: CODTECH IT SOLUTIONS
 ID: CT6WDS212
 Domain: Cyber Security and Ethical Hacking
@@ -6,7 +7,6 @@ Duration: May to July 2024
 Mentor:
 
 Overview of the project
-### Overview of the Password Strength Assessor Script
 
 #### Purpose
 The script is designed to help users evaluate the strength of their passwords and provide feedback on how to improve them. It assesses passwords based on various criteria, such as length, complexity, and uniqueness, and offers detailed feedback for enhancing password security.
