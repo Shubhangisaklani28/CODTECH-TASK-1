@@ -1,50 +1,55 @@
-# password_checker
-This Python script evaluates password strength based on length, complexity, and uniqueness. It checks for the inclusion of uppercase and lowercase letters, digits, special characters, and common patterns. Detailed feedback is provided to help users create more secure passwords. Ideal for enhancing password security. 
+Name: Shubhangi Saklani
+Company: CODTECH IT SOLUTIONS
+ID: CT6WDS212
+Domain: Cyber Security and Ethical Hacking
+Duration: May to July 2024
+Mentor: 
 
+Overview of the project
+### Overview of the Password Strength Assessor Script
 
-### Script Specification
+#### Purpose
+The script is designed to help users evaluate the strength of their passwords and provide feedback on how to improve them. It assesses passwords based on various criteria, such as length, complexity, and uniqueness, and offers detailed feedback for enhancing password security.
 
-#### Name
-Password Strength Assessor
-
-#### Description
-This Python script evaluates the strength of passwords based on length, complexity, and uniqueness. It provides detailed feedback to help users create more secure passwords by analyzing various factors, including the inclusion of uppercase and lowercase letters, digits, special characters, and common patterns.
+#### How It Works
+1. **User Input**: The script prompts the user to enter a password for assessment.
+2. **Strength Evaluation**: The script evaluates the password based on the following criteria:
+   - **Length**: Ensures the password is at least 8 characters long.
+   - **Uppercase Letters**: Checks for the presence of at least one uppercase letter.
+   - **Lowercase Letters**: Checks for the presence of at least one lowercase letter.
+   - **Digits**: Checks for the presence of at least one digit.
+   - **Special Characters**: Checks for the presence of at least one special character.
+   - **Common Patterns**: Identifies common patterns or sequences that reduce password strength.
+   - **Repeated Characters**: Checks for excessive repetition of characters.
+   - **Uniqueness (Entropy)**: Assesses the number of unique characters in the password.
+3. **Scoring**: The script assigns a score from 0 to 5 based on how well the password meets the criteria.
+4. **Feedback**: Detailed feedback is provided to the user on how to improve their password, based on the criteria that were not met.
+5. **Output**: The script outputs the strength of the password (Very Weak, Weak, Moderate, Strong, Very Strong) and the score out of 5.
 
 #### Features
-1. **Length Check**: Ensures the password is at least 8 characters long.
-2. **Uppercase Letter Check**: Verifies that the password contains at least one uppercase letter.
-3. **Lowercase Letter Check**: Verifies that the password contains at least one lowercase letter.
-4. **Digit Check**: Verifies that the password contains at least one digit.
-5. **Special Character Check**: Verifies that the password contains at least one special character (non-alphanumeric).
-6. **Common Pattern Check**: Reduces the score if the password contains common patterns or sequences like "12345", "password", etc.
-7. **Repeated Characters Check**: Reduces the score if the password contains too many repeated characters.
-8. **Uniqueness Check (Entropy)**: Ensures the password has a sufficient number of unique characters.
-9. **Detailed Feedback**: Provides feedback on how to improve the password's strength.
+- **Length Check**: Ensures the password is sufficiently long.
+- **Character Type Checks**: Verifies the presence of uppercase letters, lowercase letters, digits, and special characters.
+- **Pattern Recognition**: Identifies and penalizes common patterns and sequences.
+- **Repetition Check**: Reduces the score for excessive repetition of characters.
+- **Entropy Assessment**: Encourages the use of a diverse set of characters.
+- **Detailed Feedback**: Provides specific advice on how to strengthen the password.
 
 #### Usage
-1. Save the script to a file, e.g., `password_assessor.py`.
-2. Run the script in a terminal or command prompt.
-3. Enter a password to assess its strength.
-4. The script will display the strength of the password, a score out of 5, and feedback on how to improve the password.
-5. To exit the script, type `exit`.
+1. Run the script in a terminal or command prompt.
+2. Enter a password when prompted to receive an assessment of its strength.
+3. To exit the script, type `exit`.
 
-#### Example
+#### Example Usage
 ```sh
-python password_assessor.py
+$ python password_assessor.py
 Enter a password to assess (or type 'exit' to quit): Password123!
 Password strength: Strong (Score: 4/5)
   - Your password is strong, but could be improved with more unique characters.
 ```
 
-#### Dependencies
-- Python 3.x
-- `re` module (standard library)
-- `collections` module (standard library)
+#### Benefits
+- **User Guidance**: Helps users understand the weaknesses in their passwords and how to address them.
+- **Security Enhancement**: Encourages the creation of stronger, more secure passwords.
+- **Ease of Use**: Simple command-line interface with clear feedback.
 
-#### How to Run
-1. Save the script to a file, e.g., `password_assessor.py`.
-2. Open a terminal or command prompt.
-3. Navigate to the directory where the script is saved.
-4. Execute the script by running `python password_assessor.py`.
-
-This script is useful for users who want to enhance their password security by receiving detailed feedback on the strength and composition of their passwords.
+This script is ideal for anyone looking to improve their password security by understanding and addressing the factors that contribute to password strength.
